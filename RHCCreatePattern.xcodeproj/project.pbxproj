@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		588854C61D38BC3800E39F02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 588854C51D38BC3800E39F02 /* main.m */; };
+		588854CE1D38BC5F00E39F02 /* CarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 588854CD1D38BC5F00E39F02 /* CarModel.m */; };
+		588854D11D38C0D900E39F02 /* BenzModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 588854D01D38C0D900E39F02 /* BenzModel.m */; };
+		588854D41D38C0EF00E39F02 /* BMWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 588854D31D38C0EF00E39F02 /* BMWModel.m */; };
+		588854D71D38CF0300E39F02 /* CarBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 588854D61D38CF0300E39F02 /* CarBuilder.m */; };
+		588854DA1D38CFEF00E39F02 /* BenzBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 588854D91D38CFEF00E39F02 /* BenzBuilder.m */; };
+		588854DD1D38CFF800E39F02 /* BMWBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 588854DC1D38CFF800E39F02 /* BMWBuilder.m */; };
+		588854E21D38D92600E39F02 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 588854E11D38D92600E39F02 /* Director.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		588854C01D38BC3800E39F02 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		588854C21D38BC3800E39F02 /* RHCCreatePattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RHCCreatePattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		588854C51D38BC3800E39F02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		588854CC1D38BC5F00E39F02 /* CarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarModel.h; sourceTree = "<group>"; };
+		588854CD1D38BC5F00E39F02 /* CarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarModel.m; sourceTree = "<group>"; };
+		588854CF1D38C0D900E39F02 /* BenzModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenzModel.h; sourceTree = "<group>"; };
+		588854D01D38C0D900E39F02 /* BenzModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenzModel.m; sourceTree = "<group>"; };
+		588854D21D38C0EF00E39F02 /* BMWModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWModel.h; sourceTree = "<group>"; };
+		588854D31D38C0EF00E39F02 /* BMWModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWModel.m; sourceTree = "<group>"; };
+		588854D51D38CF0300E39F02 /* CarBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarBuilder.h; sourceTree = "<group>"; };
+		588854D61D38CF0300E39F02 /* CarBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarBuilder.m; sourceTree = "<group>"; };
+		588854D81D38CFEF00E39F02 /* BenzBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenzBuilder.h; sourceTree = "<group>"; };
+		588854D91D38CFEF00E39F02 /* BenzBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenzBuilder.m; sourceTree = "<group>"; };
+		588854DB1D38CFF800E39F02 /* BMWBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWBuilder.h; sourceTree = "<group>"; };
+		588854DC1D38CFF800E39F02 /* BMWBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWBuilder.m; sourceTree = "<group>"; };
+		588854DE1D38D89A00E39F02 /* CreatePattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreatePattern.png; sourceTree = "<group>"; };
+		588854DF1D38D8F100E39F02 /* CreatePattenCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreatePattenCar.png; sourceTree = "<group>"; };
+		588854E01D38D92600E39F02 /* Director.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
+		588854E11D38D92600E39F02 /* Director.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		588854BF1D38BC3800E39F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		588854B91D38BC3800E39F02 = {
+			isa = PBXGroup;
+			children = (
+				588854C41D38BC3800E39F02 /* RHCCreatePattern */,
+				588854C31D38BC3800E39F02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		588854C31D38BC3800E39F02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				588854C21D38BC3800E39F02 /* RHCCreatePattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		588854C41D38BC3800E39F02 /* RHCCreatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				588854C51D38BC3800E39F02 /* main.m */,
+				588854CC1D38BC5F00E39F02 /* CarModel.h */,
+				588854CD1D38BC5F00E39F02 /* CarModel.m */,
+				588854CF1D38C0D900E39F02 /* BenzModel.h */,
+				588854D01D38C0D900E39F02 /* BenzModel.m */,
+				588854D21D38C0EF00E39F02 /* BMWModel.h */,
+				588854D31D38C0EF00E39F02 /* BMWModel.m */,
+				588854D51D38CF0300E39F02 /* CarBuilder.h */,
+				588854D61D38CF0300E39F02 /* CarBuilder.m */,
+				588854D81D38CFEF00E39F02 /* BenzBuilder.h */,
+				588854D91D38CFEF00E39F02 /* BenzBuilder.m */,
+				588854DB1D38CFF800E39F02 /* BMWBuilder.h */,
+				588854DC1D38CFF800E39F02 /* BMWBuilder.m */,
+				588854DE1D38D89A00E39F02 /* CreatePattern.png */,
+				588854DF1D38D8F100E39F02 /* CreatePattenCar.png */,
+				588854E01D38D92600E39F02 /* Director.h */,
+				588854E11D38D92600E39F02 /* Director.m */,
+			);
+			path = RHCCreatePattern;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		588854C11D38BC3800E39F02 /* RHCCreatePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588854C91D38BC3800E39F02 /* Build configuration list for PBXNativeTarget "RHCCreatePattern" */;
+			buildPhases = (
+				588854BE1D38BC3800E39F02 /* Sources */,
+				588854BF1D38BC3800E39F02 /* Frameworks */,
+				588854C01D38BC3800E39F02 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHCCreatePattern;
+			productName = RHCCreatePattern;
+			productReference = 588854C21D38BC3800E39F02 /* RHCCreatePattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		588854BA1D38BC3800E39F02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hairong.chen;
+				TargetAttributes = {
+					588854C11D38BC3800E39F02 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 588854BD1D38BC3800E39F02 /* Build configuration list for PBXProject "RHCCreatePattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 588854B91D38BC3800E39F02;
+			productRefGroup = 588854C31D38BC3800E39F02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				588854C11D38BC3800E39F02 /* RHCCreatePattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		588854BE1D38BC3800E39F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588854DA1D38CFEF00E39F02 /* BenzBuilder.m in Sources */,
+				588854E21D38D92600E39F02 /* Director.m in Sources */,
+				588854D41D38C0EF00E39F02 /* BMWModel.m in Sources */,
+				588854DD1D38CFF800E39F02 /* BMWBuilder.m in Sources */,
+				588854CE1D38BC5F00E39F02 /* CarModel.m in Sources */,
+				588854D71D38CF0300E39F02 /* CarBuilder.m in Sources */,
+				588854D11D38C0D900E39F02 /* BenzModel.m in Sources */,
+				588854C61D38BC3800E39F02 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		588854C71D38BC3800E39F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		588854C81D38BC3800E39F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		588854CA1D38BC3800E39F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		588854CB1D38BC3800E39F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		588854BD1D38BC3800E39F02 /* Build configuration list for PBXProject "RHCCreatePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588854C71D38BC3800E39F02 /* Debug */,
+				588854C81D38BC3800E39F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588854C91D38BC3800E39F02 /* Build configuration list for PBXNativeTarget "RHCCreatePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588854CA1D38BC3800E39F02 /* Debug */,
+				588854CB1D38BC3800E39F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 588854BA1D38BC3800E39F02 /* Project object */;
+}
